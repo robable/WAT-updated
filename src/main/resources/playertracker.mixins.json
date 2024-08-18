@@ -2,7 +2,7 @@
   "required": true,
   "minVersion": "0.8",
   "package": "com.anip24.playertracker.mixin",
-  "compatibilityLevel": "JAVA_9",
+  "compatibilityLevel": "JAVA_21",
   "mixins": [],
   "server": [
     "MinecraftServerAccessor",
