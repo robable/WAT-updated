@@ -43,5 +43,5 @@ jobs:
         if: ${{ runner.os == 'Linux'}} # Only upload artifacts built from latest java on one OS
         uses: actions/upload-artifact@v4
         with:
-          name: Artifacts
+          name: WAT artifact for ${{ vars.GITHUB_REF }}
           path: build/libs/
