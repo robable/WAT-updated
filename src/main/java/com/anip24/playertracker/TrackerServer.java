@@ -82,7 +82,7 @@ public class TrackerServer implements DedicatedServerModInitializer {
             FileWriter myWriter = new FileWriter(targetFile, true);
             myWriter.write(String.format("%s; %s; (%s);\n",
                     LocalTime.now().truncatedTo(ChronoUnit.SECONDS).toString(),
-                    player.getEntityName(),
+                    player.getName(),
                     player.getBlockPos().toShortString()));
             myWriter.close();
         } catch (IOException e) {
